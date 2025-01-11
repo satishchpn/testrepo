@@ -1,0 +1,17 @@
+go  to the directory where you want to work
+E:\git
+open cmd here
+git clone https://github.com/satishchpn/testrepo.git
+cd testrepo
+git status
+git branch -r
+git checkout mybranch
+git status
+echo "This is a sample text file" > sample.txt
+git add sample.txt
+git add .
+git commit -m"this change is to update checkin time"
+git pull
+git push
+
+
